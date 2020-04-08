@@ -1,3 +1,4 @@
 1. try `sudo ubuntu-drivers autoinstall` to install drivers
 2. `sudo apt install gnome-tweak-tool` to install Tweak tool and then swap Capslock vs. Ctrl_left
-3. ...
+3. `timedatectl set-local-rtc 1` disabl UTC
+
