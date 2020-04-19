@@ -1,0 +1,19 @@
+syntax on                                                                                                                                                                     
+set autoindent                                                                  
+set expandtab                                                                   
+set tabstop=4                                                                   
+set pastetoggle=<F3>                                                            
+set cursorcolumn                                                                
+set cursorline                                                                  
+set hlsearch                                                                    
+set colorcolumn=80                                                              
+set number                                                                      
+highlight ColorColumn ctermbg = 2                                               
+highlight ExtraWhitespace ctermbg=red guibg=red                                 
+match ExtraWhitespace /\s\+$/                                                   
+" shortcut to switch tabs                                                       
+noremap  1 1gt                                                                  
+noremap  2 2gt                                                                  
+noremap  3 3gt                                                                  
+nnoremap <C-h> :tabprevious<CR>                                                 
+nnoremap <C-l> :tabnext<CR>
