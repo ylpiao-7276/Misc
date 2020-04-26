@@ -36,4 +36,5 @@ git config --global user.name "Yanglu Piao"
 git config --global user.email yp2419@columbia.edu
 git config --global core.editor vim
 ssh-keygen -t rsa -b 4096 -C "yp2419@columbia.edu"
+ssh-add ${HOME}/.ssh/id_rsa
 cat ${HOME}/.ssh/id_rsa.pub
